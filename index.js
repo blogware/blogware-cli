@@ -70,10 +70,10 @@ cli.on('respawn', function(flags, child) {
   log.info('Respawned to PID:', pid);
 });
 
-function run() {
+function run(envOpts) {
   cli.launch({
-    cwd: opts.cwd,
-    configPath: opts.gulpfile,
+    cwd: envOpts.cwd || opts.cwd,
+    configPath: envOpts.configPath || opts.gulpfile,
     require: opts.require,
     completion: opts.completion,
   }, handleArguments);
