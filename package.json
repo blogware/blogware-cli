@@ -1,10 +1,10 @@
 {
-  "name": "gulp-cli",
+  "name": "blogware-cli",
   "description": "The streaming build system",
   "version": "0.4.0",
   "license": "MIT",
-  "homepage": "http://gulpjs.com",
-  "repository": "gulpjs/gulp-cli",
+  "homepage": "https://github.com/blogware/blogware-cli",
+  "repository": "blogware/blogware-cli",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
   "tags": [
     "build",
